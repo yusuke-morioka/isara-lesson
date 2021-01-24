@@ -1,6 +1,7 @@
 $(function(){
+    //ここはsec14
     $('.sec14flowMenuTxtLp').hide();//まず内容を非表示
-    
+
     $('.sec14flowMenuHeadLp').click(function(){
     //.sec14flowMenuHeadLpがクリックされたら
     
@@ -16,4 +17,15 @@ $(function(){
         $(this).next().slideToggle();
         //sec14flowMenuHeadLpをスライド、アップダウン。
     });
+
+
+
+
+    //ここからはsec20
+    $('.sec20Answer').hide();
+    $('.sec20question').click(function(){
+        $(this).toggleClass('sec20Open');
+        $(this).next().slideToggle(250);
+    });
+
  });
