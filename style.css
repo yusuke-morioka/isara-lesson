@@ -1,0 +1,1971 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#headBer {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 15px 0;
+    position: relative;
+}
+
+.top-image {
+    display: inline-flex;
+}
+
+.top-image img {
+    width: 130px;
+    height: auto;
+}
+
+.top-image p {
+    font-size: 15px;
+    position: relative;
+    top: 25px;
+}
+
+.content-btn {
+    padding: 15px 50px;
+    color: #fff;
+    background-color: #da6b64;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 14px;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 17px;
+}
+
+.resseikyuu {
+    display: none;
+}
+
+.content-btn img {
+    display: none;
+}
+
+
+.title {
+    text-align: center;
+    background-image: url("imageFile/main.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+}
+
+.midasi {
+    text-align: center;
+    font-size: 30px;
+    line-height: 50px;
+    padding-top: 90px;
+}
+
+.logolarge {
+    width: 300px;
+    height: auto;
+    padding-top: 10px;
+}
+
+.submidasi {
+    font-weight: bold;
+    font-size: 23px;
+    padding-top: 45px;
+}
+
+.sec2 {
+    background-color: #EBB94D;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.text1 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 40px;
+}
+
+.text1 span {
+    font-weight: normal;
+    background-color: #fff;
+    color: #C7254E;
+}
+
+.sec2con {
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 35px 300px;
+    color: #fff;
+    background-color: #da6b64;
+    border-radius: 50px;
+    cursor: pointer;
+    display: inline-block;
+    margin: 50px 0;
+}
+
+.text2 {
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 42px;
+    margin-bottom: 20px;
+}
+
+.kaig {
+    display: none;
+}
+
+.miniLink {
+    display: inline-flex;
+}
+
+iframe {
+    padding-left: 5px;
+}
+
+.sec3 {
+    text-align: center;
+    background-image: url("imageFile/introbottom.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    padding: 50px 0;
+    position: relative;
+}
+
+.sec3title {
+    display: inline-block;
+    position: relative;
+    font-size: 25px;
+    padding: 25px 0;
+    margin-bottom: 20px;
+}
+
+.sec3title h2 {
+    font-size: 30px;
+    margin: 20px 0;
+    width: 850px;
+}
+
+/*カギカッコ*/
+.sec3title::before , .sec3title::after {
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 50px;
+}
+.sec3title::before {
+    top: 0;
+    left: 0;
+    border-top: 4px solid #EBB94D;
+    border-left: 4px solid #EBB94D;
+}
+.sec3title::after {
+    bottom: 0;
+    right: 0;
+    border-bottom: 4px solid #EBB94D;
+    border-right: 4px solid #EBB94D;
+}
+
+.sec3content p {
+    padding: 0px 0 13px 0;
+    font-size: 20px;
+}
+
+.underLine {
+    font-weight: bold;
+    background: linear-gradient(transparent 70%, #ebb94d 50%);
+}
+
+/*黄色いサークル*/
+.circle {
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+}
+
+.circle p {
+    display: inline-block;
+    background-color: #ebb94d;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    font-size: 15px;
+    color: #fff;
+    padding: 0;
+    border-radius: 100px;
+    line-height: 80px;
+}
+
+
+.sec4 {
+    text-align: center;
+    background-color: #FFF5E0;
+    padding: 50px 0;
+}
+
+.sec4subTitle {
+    padding: 10px 0 30px 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sec4skill {
+    max-width: 1150px;
+    display: inline-block;
+    border: 2px solid #EBB94D;
+    background-color: #fff;
+    width: 1150px;
+    padding: 20px 0 20px 0;
+}
+
+.sec4skillTitle {
+    padding: 20px 0;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.sec4skillmanu {
+    display: inline-flex;
+}
+
+.sec4skill1, .sec4skill2, .sec4skill3, .sec4skill4, .sec4skill5 {
+    display: inline-block;
+    padding: 20px ;
+}
+
+
+.sec4skill1 img, .sec4skill2 img, .sec4skill3 img, .sec4skill4 img, .sec4skill5 img {
+    height: 60px;
+}
+
+.sec4skill p {
+    font-size: 12px;
+    line-height: 20px;
+    margin: 10px 0;
+}
+
+.sec5 {
+    background-image: url("imageFile/aboutsecondbg.jpg");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 50px;
+}
+
+.sec5txt {
+    color: #fff;
+    padding-bottom: 30px;
+}
+
+.sec5txt h2 {
+    font-size: 30px;
+    padding: 60px 0 40px 0;
+}
+
+.sec5txt p {
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: bold;
+}
+
+/*スパンタグフォントカラー黄色*/
+.yelloFont {
+    color: #EBB94D;
+}
+
+.sec5stepMenu {
+    display: inline-block;
+    background-color: #fff;
+    width: 400px;
+    height: 180px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.sec5stepMenu .sec5stepMenuHead {
+    background-color: #EBB94D;
+    color: #fff;
+    width: 350px;
+    height: 25px;
+    line-height: 25px;
+    margin: 30px auto;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.sec5stepMenutxt1 {
+    line-height: 30px;
+    font-size: 15px;
+}
+
+.sec5stepMenutxt2 {
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.sec5footer {
+    background-color: #006EA9;
+    text-align: center;
+    padding: 50px;
+}
+
+.sec5footer h2 {
+    font-size: 23px;
+    color: #fff;
+    line-height: 35px;
+}
+
+.sec6 {
+    text-align: center;
+    padding: 60px 0;
+}
+
+.sec6title {
+    font-size: 25px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.sec6txt {
+    padding: 30px 0;
+    font-size: 21px;
+}
+
+.smalltxt {
+    font-size: 15px;
+}
+
+.sec6skillimg img {
+    width: 180px;
+    height: auto;
+    margin: 10px 20px;
+}
+
+.sec6lasttxt {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 25px 0;
+}
+
+.sec7 {
+    background-color: #FFF5E0;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.sec7 .sec3title {
+    line-height: 5px;
+    margin-bottom: 40px;
+}
+
+.sec3title .sec7firsttxt {
+    font-size: 20px;
+}
+
+.sec7merit {
+    display: inline-flex;
+}
+
+.sec7meritMenu {
+    padding: 0 1vw;
+    display: inline-block;
+}
+
+.sec7meritMenu img {
+    max-width: 320px;
+    width: 30vw;
+}
+
+.sec7meritMenu .sec7meritTitle, .sec7meritTxt {
+    text-align: left;
+}
+
+.sec7meritMenu .sec7meritTitle {
+    color: #EBB94D;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+.sec7meritMenu .sec7meritTxt {
+    line-height: 25px;
+    width: 310px;
+    color: #000;
+}
+
+.sec7support {
+    display: inline-block;
+    border: 2px solid #EBB94D;
+    background-color: #fff;
+    padding: 30px 20px;
+    margin: 20px 0;
+    width: 92vw;
+}
+
+.sec7supportTitle {
+    color: #EBB94D;
+    font-weight: bold;
+    font-size: 28px;
+    padding: 10px 0;
+}
+
+.sec7supportTxt1 {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.sec7supportTxt2 {
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 25px;
+    padding: 10px 0;
+}
+
+.sec7sp {
+    font-size: 14px;
+    line-height: 23px;
+    color: #000;
+}
+
+.sec8 {
+    background-image: url(imageFile/teacherbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 20px 30px;
+}
+
+.sec8title h2 {
+    color: #fff;
+    font-size: 30px;
+    letter-spacing: 3px;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.sec8title p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.sec8membermenu {
+    display: flex;
+    padding: 0 100px;
+    justify-content: center;
+}
+
+.sec8member {
+    margin: 0 15px;
+    position: relative;
+}
+
+.sec8member img {
+    border-radius: 100%;
+    position: relative;
+    top: 7%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.sec8membertxt {
+    border: 3px solid #fff;
+    padding: 50px 30px;
+    max-width: 370px;
+}
+
+.sec8membertxt h3, .sec8membertxt p {
+    color: #fff;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.sec8membertxt h3 {
+    padding: 10px 0;
+}
+
+.sec9 {
+    background-color: #ebb94d;
+    color: #fff;
+    text-align: center;
+    padding: 40px 0 20px 0;
+    position: relative;
+}
+
+/*サークル*/
+.sec9circle p {
+    display: inline-block;
+    background-color: #fff;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    font-size: 15px;
+    color: #ebb94d;
+    padding: 0;
+    border-radius: 100px;
+    line-height: 80px;
+}
+
+/*カギカッコsec9*/
+.sec9 .sec3title::before , .sec9 .sec3title::after {
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 50px;
+}
+.sec9 .sec3title::before {
+    top: 0;
+    left: 0;
+    border-top: 4px solid #fff;
+    border-left: 4px solid #fff;
+}
+.sec9 .sec3title::after {
+    bottom: 0;
+    right: 0;
+    border-bottom: 4px solid #fff;
+    border-right: 4px solid #fff;
+}
+.sec9 .sec3title h2 {
+    margin: 0;
+}
+
+.sec9txt {
+    line-height: 35px;
+}
+
+.sec9::after {
+    content: "";
+    height: 0;
+    width: 0;
+    position: absolute;
+    border: solid 25px transparent;
+    border-top-color: #ebb94d;
+    top: 100%;
+    left: 50%;
+    margin-left: -25px;
+}
+
+.sec10 {
+    padding: 30px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.sec10title h2 {
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+.sec10title1 {
+    font-size: 17px;
+    font-weight: bold;
+    padding: 20px 0;
+}
+
+.sec10title2 {
+    font-size: 14px;
+    padding: 20px 0;
+}
+
+.sec11 {
+    margin: 20px 0;
+}
+
+.sec11answer {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.sec11answerTxtBoxImg {
+    display: inline-block;
+}
+
+.sec11answerTxtBoxImg img {
+    width: 240px;
+    border: 3px solid #ebb94d;
+}
+
+.sec11answertxtbox {
+    display: inline-flex;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 2px;
+    color: #777777;
+}
+
+.sec11answertxt1 {
+    max-width: 500px;
+    padding: 20px 0 0 20px;
+}
+
+.sec11answertxt2 {
+    line-height: 40px;
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.sec12 {
+    background-image: url(imageFile/classbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 20px 0;
+}
+
+.sec12title, .sec12subTitle {
+    color: #fff;
+    text-align: center;
+}
+
+.sec12title {
+    font-size: 24px;
+    padding: 20px 0;
+}
+
+.sec12subTitle {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.learningMenu {
+    padding: 40px 0;
+    text-align: center;
+}
+.startLearning, .harfLearning {
+    display: inline-block;
+    border: 2px solid #006EA9;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 0 10px;
+    width: 40%;
+    max-width: 380px;
+    vertical-align: top;
+}
+.startLearning h2 , .harfLearning h2 {
+    background-color: #006EA9;
+    color: #fff;
+    font-size: 18px;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+.startLearning p , .harfLearning p {
+    font-size: 15px;
+    padding: 15px;
+    font-weight: bold;
+    border-bottom: 1px dotted #e5e5e5;
+}
+
+.sec13 {
+    background-color: #006EA9;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.sec13txt {
+    color: #FFF;
+    line-height: 35px;
+    font-size: 20px;
+}
+
+.sec14 {
+    padding: 30px 0;
+}
+
+.sec14titleTxt {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 28px;
+}
+
+.sec14flowimg {
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+.sec14flowMenu {
+    display: block;
+    margin: 35px 50px;
+}
+
+.sec14flow, .sec14flowLp {
+    background-color: #FFF5E0;
+    max-width: 1100px;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 15px 50px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.sec14flowMenuHead {
+    padding: 20px;
+}
+
+.sec14flowMenuHead h2 {
+    text-align: center;
+    line-height: 30px;
+    margin-top: 10px;
+}
+
+.sec14flowMenuTxt p {
+    font-weight: bold;
+    padding: 20px;
+}
+
+.sec14txtSmall {
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.sec14flowLineimg1, .sec14flowLineimg2 {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 2%);
+    width: 65vw;
+    max-width: 900px;
+}
+
+.sec14flowMenuLp {
+    display: none;
+}
+
+.sec15 {
+    background-image: url(imageFile/bangkokbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 70px;
+    text-align: left;
+    color: #fff;
+}
+
+.sec15wrap {
+    margin: 0 auto;
+    width: 1170px;
+}
+
+.sec15title {
+    font-size: 25px;
+    padding: 20px 0;
+}
+
+.sec15txt {
+    font-size: 15px;
+    line-height: 25px;
+    padding: 20px 0;
+}
+
+.sec15list p {
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.sec15LastTxt {
+    font-size: 20px;
+    padding: 20px 0;
+}
+
+.sec16 {
+    padding: 20px;
+    background-color: #F7C23C;
+    text-align: center;
+}
+
+.sec16title, .sec16txt {
+    padding: 20px;
+}
+
+.sec16title {
+    font-size: 25px;
+    padding: 40px;
+}
+
+.sec16txt {
+    font-weight: bold;
+}
+
+.sec16txtwhite {
+    color: #fff;
+}
+
+.sec16tokutenMenu {
+    margin: 50px 30px;
+    padding: 20px 100px;
+    border: 2px solid #fff;
+    display: inline-flex;
+    position: relative;
+}
+
+.sec16tokutenMenuTitle {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    width: 800px;
+    background-color: #F7C23C;
+}
+
+.sec16tokutenBox {
+    padding: 20px;
+}
+
+.sec16tokuten {
+    position: relative;
+    background-color: #fff;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.sec16tokutenTitle {
+    position: absolute;
+    top: 28%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #F7C23C;
+    font-size: 25px;
+}
+
+.sec16tokutenTxt {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 220px;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+.sec16tokutenTxtLp {
+    display: none;
+}
+
+.sec17 {
+    background-image: url(imageFile/specialdetail.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.sec17title {
+    font-size: 30px;
+    padding: 20px 0;
+}
+
+.sec17txt {
+    font-size: 20px;
+    padding: 20px 0;
+    font-weight: bold;
+    line-height: 33px;
+}
+
+/*カギカッコsec17*/
+.sec17 .sec3title::before , .sec9 .sec3title::after {
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 50px;
+}
+.sec17 .sec3title::before {
+    top: 0;
+    left: 0;
+    border-top: 4px solid #fff;
+    border-left: 4px solid #fff;
+}
+.sec17 .sec3title::after {
+    bottom: 0;
+    right: 0;
+    border-bottom: 4px solid #fff;
+    border-right: 4px solid #fff;
+}
+.sec17 .sec3title h2 {
+    margin: 0;
+}
+
+
+
+.sec18 {
+    padding: 20px;
+}
+
+.sec18title {
+    padding: 20px 0;
+    font-size: 25px;
+    text-align: center;
+}
+
+.sec18txt {
+    padding: 20px 0;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.founderBox {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.founderImg {
+    width: 200px;
+    vertical-align: top;
+}
+
+.founderTxtBox {
+    display: inline-block;
+    max-width: 700px;
+    text-align: left;
+    padding: 0 30px;
+    font-size: 14px;
+}
+
+.founderTxtBox p {
+    padding-bottom: 10px;
+    line-height: 23px;
+    letter-spacing: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and ( max-width:770px){
+
+    #headBer {
+        max-width: 100%;
+        padding: 0;
+        height: 60px;
+    }
+
+    .top-image {
+        margin: 10px;
+        flex-direction: column-reverse;
+    }
+
+    .top-image p {
+        font-size: 5px;
+        font-weight: bold;
+        top:0px;
+    }
+
+    .top-image img {
+        width: 90px;
+        padding-top: 5px;
+    }
+
+    .content-btn {
+        border-radius: 0px;
+        top: 0;
+        padding: 13px 13px 10px 13px;
+    }
+
+    .content-btn img {
+        display: block;
+        width: 20px;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    .seikyuu {
+        display: none;
+    }
+
+    .resseikyuu {
+        display: block;
+        color: #fff;
+        margin: 0 auto;
+        position: relative;
+        top: 5px;
+        font-size: 12px;
+    }
+
+    .title {
+        background-image: url("imageFile/mainsp.jpg");
+        background-position: center;
+    }
+
+    .midasi {
+        line-height: 30px;
+        font-size: 20px;
+        padding: 20px 0;
+    }
+
+    .submidasi {
+        font-size: 15px;
+        padding: 35px 0;
+    }
+
+
+    .text1 {
+        font-size: 15px;
+        line-height: 30px;
+    }
+
+    .text1 span {
+        font-size: 16px;
+        line-height: 10px;
+    }
+
+    .sec2con {
+        font-size: 20px;
+        font-weight: bold;
+        padding: 20px 40px;
+        margin: 20px 0;
+    }
+
+    .text2 {
+        text-align: center;
+        font-size: 15px;
+        font-weight: bold;
+        color: #fff;
+        line-height: 20px;
+        margin-bottom: 20px;
+    }
+
+    .kaig {
+        display: block;
+    }
+
+    .sec3 {
+        padding: 30px 0;
+        background-size: contain;
+        background-position: bottom;
+        background-repeat: no-repeat;
+        height: 80vh;
+    }
+
+    .sec3title {
+        width: 330px;
+        padding: 10px;
+    }
+    
+    .sec3title h2 {
+        display: inline-block;
+        font-size: 17px;
+        line-height: 30px;
+        margin: 20px 0;
+        width: 300px;
+    }
+    
+    /*カギカッコ*/
+    .sec3title::before , .sec3title::after {
+        position: absolute;
+        content: "";
+        width: 30px;
+        height: 30px;
+    }
+    .sec3title::before {
+        top: 0;
+        left: 0;
+        border-top: 4px solid #EBB94D;
+        border-left: 4px solid #EBB94D;
+    }
+    .sec3title::after {
+        bottom: 0;
+        right: 0;
+        border-bottom: 4px solid #EBB94D;
+        border-right: 4px solid #EBB94D;
+    }
+
+    .sec3txt p {
+        font-size: 15px;
+        padding: 0;
+        line-height: 25px;
+    }
+    
+    /*黄色いサークル*/
+    .circle {
+        position: absolute;
+        bottom: -30px;
+        left: 42%;
+    }
+    
+    .circle p {
+        display: inline-block;
+        width: 60px;
+        height: 60px;
+        text-align: center;
+        font-size: 14px;
+        border-radius: 100px;
+        line-height: 60px;
+    }
+
+    .sec4 .sec3title {
+        padding: 20px 0;
+    }
+
+    .sec4 .sec3title h2 {
+        margin-bottom: 0px;
+        margin-top: 10px;
+    }
+
+    .sec4subTitle {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .sec4skill {
+        width: auto;
+        margin: 20px;
+        padding: 10px;
+    }
+
+    .sec4skillTitle {
+        font-size: 15px;
+        line-height: 30px;
+        padding: 0;
+    }
+
+    .sec4skillmanu {
+        display: inline-block;
+
+    }
+
+    .sec4skill1, .sec4skill2, .sec4skill3, .sec4skill4, .sec4skill5 {
+        padding: 10px ;
+    }
+
+    .sec4skill1 img, .sec4skill2 img, .sec4skill3 img, .sec4skill4 img, .sec4skill5 img {
+        height: 30px;
+    }
+
+    .sec4skill p {
+        font-size: 10px;
+        margin: 5px 0;
+    }
+
+    .sec5 {
+        background-image: url("imageFile/aboutsecondbgsp.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 30px;
+    }
+    
+    .sec5txt h2 {
+        font-size: 20px;
+        padding: 30px 0;
+    }
+    
+    .sec5txt p {
+        font-size: 12px;
+        line-height: 15px;
+        font-weight: bold;
+    }
+    
+    .sec5stepMenu {
+        width: 320px;
+        height: 100px;
+        margin: 8px 0;
+        border-radius: 5px;
+    }
+    
+    .sec5stepMenu .sec5stepMenuHead {
+        width: 240px;
+        height: 20px;
+        margin: 12px auto 9px auto;
+        font-size: 12px;
+    }
+    
+    .sec5stepMenutxt1 {
+        line-height: 25px;
+        font-size: 12px;
+    }
+    
+    .sec5stepMenutxt2 {
+        line-height: 20px;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .sec5footer {
+        background-color: #006EA9;
+        text-align: center;
+        padding: 13px 0;
+    }
+    
+    .sec5footer h2 {
+        font-size: 13px;
+        color: #fff;
+        line-height: 20px;
+    }
+
+    .sec6 {
+        text-align: center;
+        padding: 30px 0;
+    }
+    
+    .sec6title {
+        font-size: 15px;
+        padding: 20px;
+    }
+    
+    .sec6txt {
+        padding: 15px 0;
+        font-size: 16px;
+        line-height: 25px;
+    }
+    
+    .smalltxt {
+        font-size: 15px;
+    }
+    
+    .sec6skillimg img {
+        width: 60px;
+        margin: 0px;
+        padding: 0 5px;
+    }
+    
+    .sec6lasttxt {
+        font-size: 12px;
+        font-weight: normal;
+        padding: 20px 0;
+    }
+
+    .sec7 {
+        padding: 30px 0 50px 0;
+    }
+    
+    .sec7 .sec3title {
+        line-height: 0;
+    }
+    
+    .sec3title .sec7firsttxt {
+        font-size: 15px;
+        margin: 0;
+        line-height: 25px;
+    }
+
+    .sec3title .sec7secondtxt {
+        font-size: 18px;
+        line-height: 45px;
+        margin: 0;
+    }
+
+    .sec7merit {
+        display: block;
+    }
+    
+    .sec7meritMenu {
+        padding: 0 1vw;
+        display: inline-block;
+    }
+    
+    .sec7meritMenu img {
+        max-width: 90vw;
+        width: 90vw;
+    }
+    
+    .sec7meritMenu .sec7meritTitle, .sec7meritTxt {
+        display: inline-block;
+        text-align: left;
+        margin: 0 auto;
+    }
+    
+    .sec7meritMenu .sec7meritTitle {
+        font-size: 15px;
+        padding: 10px 0;
+    }
+    
+    .sec7meritMenu .sec7meritTxt {
+        font-size: 12px;
+        line-height: 20px;
+        width: 300px;
+        padding-bottom: 20px;
+    }
+
+    .sec7support {
+        padding: 10px;
+        margin: 10px 0;
+        width: 85vw;
+    }
+
+    .sec7support .unkaig {
+        display: none;
+    }
+    
+    .sec7supportTitle {
+        font-size: 18px;
+        padding: 10px 0;
+    }
+    
+    .sec7supportTxt1 {
+        font-size: 15px;
+        padding: 10px 0;
+        line-height: 25px;
+    }
+
+    .sec7supportTxt2 {
+        font-size: 8px;
+        line-height: 15px;
+        padding: 10px 0;
+    }
+
+    .sec7sp {
+        font-size: 12px;
+        line-height: 18px;
+        padding: 0px 10px;
+    }
+
+    .sec7sp .unkaig {
+        display: none;
+    }
+    
+    .sec8 {
+        background-image: url(imageFile/teacherbg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding: 50px 0;
+    }
+
+    .sec8title h2 {
+        font-size: 18px;
+        letter-spacing: 3px;
+        padding: 10px 0;
+        margin-top: 0;
+    }
+
+    .sec8title p {
+        font-size: 13px;
+        font-weight: bold;
+        line-height: 20px;
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    .sec8membermenu {
+        padding: 0;
+        flex-direction: column;
+    }
+
+    .sec8member {
+        margin: 0 15px;
+        position: relative;
+    }
+
+    .sec8member img {
+        width: 115px;
+        transform: translate(-50%, 30%);
+    }
+
+    .sec8membertxt {
+        padding: 30px 5px;
+    }
+
+    .sec8membertxt h3, .sec8membertxt p {
+        font-size: 12px;
+        line-height: 20px;
+        letter-spacing: 0;
+    }
+
+    .sec8membertxt p {
+        text-align: left;
+    }
+
+    .sec9 {
+        background-color: #ebb94d;
+        color: #fff;
+        text-align: center;
+        padding: 20px 0 0 0;
+        position: relative;
+    }
+    
+    /*サークル*/
+    .sec9circle {
+        bottom: -30px;
+        left: 42%;
+        padding: 0 0 10px 0;
+    }
+    .sec9circle p {
+        display: inline-block;
+        width: 60px;
+        height: 60px;
+        text-align: center;
+        font-size: 14px;
+        border-radius: 100px;
+        line-height: 60px;
+    }
+    
+    /*カギカッコsec9*/
+    .sec9 .sec3title::before , .sec9 .sec3title::after {
+        position: absolute;
+        content: "";
+        width: 30px;
+        height: 30px;
+    }
+    .sec9 .sec3title::before {
+        top: 0;
+        left: 0;
+        border-top: 4px solid #fff;
+        border-left: 4px solid #fff;
+    }
+    .sec9 .sec3title::after {
+        bottom: 0;
+        right: 0;
+        border-bottom: 4px solid #fff;
+        border-right: 4px solid #fff;
+    }
+    
+    .sec9 .sec3title .sec9txt {
+        font-size: 15px;
+        line-height: 40px;
+    }
+    
+    .sec9::after {
+        border: solid 15px transparent;
+        border-top-color: #ebb94d;
+        margin-left: -25px;
+    }
+
+    .sec10 {
+        padding: 30px 0;
+        background-color: #fff;
+        text-align: center;
+    }
+    
+    .sec10title h2 {
+        padding: 10px 0;
+        font-size: 20px;
+    }
+    
+    .sec10title1 {
+        font-size: 12px;
+        font-weight: bold;
+        padding: 10px 0;
+    }
+    
+    .sec10title2 {
+        font-size: 13px;
+        padding: 10px 0;
+        line-height: 20px;
+    }
+
+    .sec11 {
+        margin: 15px 0;
+    }
+
+    .sec11answermenu {
+        padding: 10px;
+    }
+
+    .sec11answerTxtBoxImg img {
+        width: 100px;
+    }
+
+    .sec11answertxtbox {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .sec11answertxt1 {
+        font-size: 14px;
+        padding: 0 10px ;
+    }
+
+    .sec11answertxt2 {
+        display: block;
+        line-height: 20px;
+        font-size: 12px;
+        margin-top: 5px;
+    }
+
+    .italic {
+        font-style: italic;
+    }
+
+    .sec12 {
+        background-position: left;
+        padding: 20px 0;
+    }
+    
+    .sec12title {
+        font-size: 16px;
+    }
+    
+    .sec12subTitle {
+        font-size: 12px;
+    }
+
+    .learningMenu {
+        padding: 40px 0;
+        text-align: center;
+        display: block;
+    }
+    .startLearning, .harfLearning {
+        display: inline-block;
+        margin: 10px 0;
+        width: 90vw;
+    }
+    .startLearning h2 , .harfLearning h2 {
+        background-color: #006EA9;
+        color: #fff;
+        font-size: 15px;
+        padding: 15px;
+        margin-bottom: 10px;
+    }
+    .startLearning p , .harfLearning p {
+        font-size: 13px;
+        padding: 15px;
+        font-weight: bold;
+        border-bottom: 1px dotted #e5e5e5;
+    }
+
+    .sec13 {
+        padding: 15px 0;
+    }
+    
+    .sec13txt {
+        line-height: 25px;
+        font-size: 15px;
+    }
+
+    .sec14 {
+        padding-top: 30px;
+    }
+    
+    .sec14titleTxt {
+        padding: 15px 0;
+        font-size: 18px;
+    }
+    
+    .sec14flowimg {
+        display: none;
+    }
+
+    .sec14flowMenu {
+        display: none;
+    }
+    
+    
+    .sec14flowMenuLp {
+        display: inline-block;
+        margin: 5px 10px;
+    }
+    
+    .sec14flowLp {
+        border-radius: 10px;
+        margin: 5px 0;
+        display: block;
+        align-items: center;
+        position: relative;
+        padding: 0;
+        width: 350px;
+    }
+    
+    .sec14flowMenuHeadLp {
+        display: flex;
+        padding: 10px;
+        align-items: center;
+    }
+
+    .sec14flowMenuHeadLp img {
+        width: 35px;
+        margin: 2px 20px 2px 2px;
+    }
+    
+    .sec14flowMenuHeadLp h2 {
+        display: block;
+        text-align: left;
+        margin-top: 0px;
+    }
+
+    .sec14flowMenuHeadLp ::after {
+        font-family: "Font Awesome 5 Free";
+        content:"\f063";
+        position: absolute;
+        right: 15px;
+        font-weight:900;
+    }
+
+    .sec14flowMenuHeadLpOpen ::after {
+        content: "\f062";
+    }
+
+    .sec14flowMenuHeadLp h2 br {
+        display: none;
+    }
+
+    .sec14flowMenuTxtLp {
+        padding: 10px;
+    }
+    
+    .sec14flowMenuTxtLp p {
+        font-size: 12px;
+        font-weight: bold;
+        line-height: 12px;
+        padding: 0px;
+    }
+    
+    .sec14txtSmallLp {
+        font-weight: normal;
+        font-size: 11px;
+        line-height: 17px;
+        display: block;
+        margin-bottom: 10px;
+    }
+    
+    .sec14flowLineimg1, .sec14flowLineimg2 {
+        display: none;
+    }
+
+    .sec15 {
+        background-image: url(imageFile/bangkokbgsp.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding: 0px;
+        text-align: center;
+    }
+    
+    .sec15wrap {
+        margin: 0 auto;
+        width: auto;
+        padding: 30px;
+    }
+    
+    .sec15txt {
+        font-size: 12px;
+        line-height: 20px;
+        text-align: left;
+    }
+    
+    .sec15list p {
+        font-size: 12px;
+        font-weight: normal;
+        text-align: left;
+        line-height: 20px;
+        padding: 3px 0;
+    }
+    
+    .sec15LastTxt {
+        font-size: 15px;
+        padding: 20px 0;
+        text-align: left;
+        line-height: 25px;
+    }
+
+    .sec16 {
+        padding: 15px 0;
+        background-color: #F7C23C;
+        text-align: center;
+    }
+    
+    .sec16title, .sec16txt {
+        padding: 0px;
+    }
+    
+    .sec16title {
+        font-size: 20px;
+        padding: 20px 0;
+    }
+    
+    .sec16txt {
+        font-weight: bold;
+        padding: 20px 45px;
+        font-size: 12px;
+        line-height: 18px;
+    }
+    
+    .sec16txtwhite {
+        color: #fff;
+    }
+    
+    .sec16tokutenMenu {
+        margin: 0px;
+        padding: 35px 10px;
+        margin: 40px 10px;
+        border: 2px solid #fff;
+        display: block;
+        position: relative;
+    }
+    
+    .sec16tokutenMenuTitle {
+        position: absolute;
+        top: 0%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 18px;
+        width: 300px;
+        line-height: 30px;
+        background-color: #F7C23C;
+    }
+    
+    .sec16tokutenBox {
+        padding: 15px;
+    }
+    
+    .sec16tokuten {
+        width: 60px;
+        height: 60px;
+        margin: 0;
+        text-align: center;
+    }
+    
+    .sec16tokutenTitle {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #F7C23C;
+        font-size: 10px;
+        width: 50px;
+    }
+    
+    .sec16tokutenTxtLp {
+        display: block;
+        position: absolute;
+        top: 25%;
+        left: 130%;
+        width: 220px;
+        font-size: 12px;
+        line-height: 18px;
+        color: #fff;
+        text-align: left;
+    }
+
+    .sec16tokutenTxt {
+        display: none;
+    }
+
+    .sec17 {
+        background-image: url(imageFile/specialdetailsp.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 40px 20px;
+        text-align: center;
+        color: #fff;
+    }
+
+    .sec17 .unkaig {
+        display: none;
+    }
+    
+    .sec17title {
+        font-size: 20px;
+        padding: 20px 0;
+    }
+    
+    .sec17txt {
+        font-size: 12px;
+        padding: 20px 0;
+        font-weight: bold;
+        line-height: 20px;
+    }
+
+    /*カギカッコsec17*/
+    .sec17 .sec3title::before , .sec9 .sec3title::after {
+        position: absolute;
+        content: "";
+        width: 30px;
+        height: 30px;
+    }
+    .sec17 .sec3title::before {
+        top: 0;
+        left: 0;
+        border-top: 4px solid #fff;
+        border-left: 4px solid #fff;
+    }
+    .sec17 .sec3title::after {
+        bottom: 0;
+        right: 0;
+        border-bottom: 4px solid #fff;
+        border-right: 4px solid #fff;
+    }
+    .sec17 .sec3title .sec9txt {
+        font-size: 15px;
+        line-height: 40px;
+    }
+    .sec17::after {
+        border: solid 15px transparent;
+        border-top-color: #ebb94d;
+        margin-left: -25px;
+    }
+
+
+
+
+    .sec18 {
+        padding: 20px;
+    }
+    
+    .sec18title {
+        font-size: 18px;
+    }
+    
+    .sec18txt {
+        padding: 20px 0;
+        font-size: 15px;
+        line-height: 25px;
+    }
+    
+    .founderBox {
+        text-align: center;
+        padding: 20px 0 0 0;
+    }
+    
+    .founderImg {
+        width: 340px;
+    }
+    
+    .founderTxtBox {
+        padding: 10px 0;
+        font-size: 14px;
+    }
+    
+    .founderTxtBox p {
+        padding-bottom: 30px;
+        line-height: 23px;
+        letter-spacing: 2px;
+    }
+
+    
+
+}
