@@ -161,7 +161,7 @@ input, select {
     background-image: url("imageFile/main.jpg");
     background-size: cover;
     background-position: center;
-    height: 50vh;
+    height: 500px;
 }
 
 .midasi {
